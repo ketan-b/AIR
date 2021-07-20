@@ -1,0 +1,73 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "fonts";
+@import "variables";
+@import "carousel";
+@import "components";
+@import "footer";
+@import "map-holder";
+@import "navbar";
+@import "carousel-navbar";
+@import "home";
+@import "about";
+@import "course_plan";
+@import "course_activities";
+@import "course_faculty";
+
+@import "section-11";
+@import "section-12";
+@import "course-head";
+@import "section-14";
+@import "section-15";
+@import "section-16";
+@import "section-18";
+@import "section-19";
+@import "section-20";
+@import "section-21";
+@import "course-overview";
+
+
+body {
+  font-family: $font-family-montessarat;
+  background: #fff;
+}
+
+section {
+  padding: 80px 0px;
+}
+
+footer {
+  padding: 80px 0;
+}
+
+/* 
+ * Hover CSS
+ * Icon Forward 
+ */
+.hvr-icon-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+
+.hvr-icon-forward .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-icon-forward:hover .hvr-icon,
+.hvr-icon-forward:focus .hvr-icon,
+.hvr-icon-forward:active .hvr-icon {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+}
