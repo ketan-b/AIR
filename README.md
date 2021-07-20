@@ -1,4 +1,4 @@
-<p align="center"><a href="https://air-nitap.netlify.app/" title="ceadoor"><img src="https://github.com/ceadoor/cea.ac.in/raw/master/src/assets/LOGO/AIR-PNG.png" alt="ceadoor logo" width="300" /></a></p>
+<p align="center"><a href="https://air-nitap.netlify.app/" title="ceadoor"><img src="https://github.com/ketan-b/AIR/raw/master/src/assets/LOGO/AIR-PNG.png" alt="ceadoor logo" width="300" /></a></p>
 
 <h1 align="center">Website for AIR Club</h1>
 
